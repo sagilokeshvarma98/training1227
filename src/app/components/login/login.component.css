@@ -1,0 +1,105 @@
+.backGround {
+    background: linear-gradient(#203066 40%, rgb(192, 192, 192) 40%);
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.example-card {
+    width: 350px;
+}
+
+.header-image {
+    background-image: url(https://onewave.techwave.net/assets/images/TW_nimonic.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+mat-card-header {
+    justify-content: center;
+}
+
+mat-card-title p {
+    font-size: larger;
+    color: rgb(175, 53, 159);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 5px;
+}
+
+mat-card-title div {
+    width: 45px;
+    margin: auto;
+}
+
+mat-card-content mat-form-field {
+    width: 320px;
+}
+
+mat-card-actions {
+    text-align: center;
+}
+
+mat-card-actions .buttondiv {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+mat-card-actions .buttondiv .matSnipper {
+    margin-bottom: 30px;
+}
+
+mat-card-actions .buttondiv button {
+    width: 350px;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+
+mat-card-actions .anchorDiv {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 20px;
+}
+
+mat-card-actions .anchorDiv a {
+    color: gray;
+    grid-column-start: 3;
+    cursor: context-menu;
+}
+
+mat-card-actions .anchorDiv a:first-child {
+    color: gray;
+    grid-column-start: 1;
+}
+
+/* section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+}
+
+mat-card {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+mat-card-header{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+
+mat-card-content , mat-card-actions{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+*/
